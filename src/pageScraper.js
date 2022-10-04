@@ -4,6 +4,7 @@ const {chromium} = require('playwright');
 
 
 let inputText = "ASCII";
+// Change these colors to edit the retrieved colors
 const colorsArr = ["rgb(255, 0, 0)", "rgb(255, 165, 0)", "rgb(255, 255, 0)", "rgb(0, 255, 0)", "rgb(0, 0, 255)", "rgb(143,0,255)"];
 let outputImgs = [];
 let font = "Alpha";
